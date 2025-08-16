@@ -42,14 +42,22 @@ function SaveButton({ product, width, isHeart = false }) {
             {isSaved ? (
                 <button
                     className={`${width} bg-gray-50 hover:bg-[#DC143C] hover:text-white transition font-bold px-8 rounded-lg text-[#DC143C] border-2 border-[#DC143C] flex items-center justify-center mb-4 hover:cursor-pointer whitespace-nowrap`}
-                    onClick={handleSave}
+                    onClick={(e) => {
+                        e.preventDefault();   // ngăn chuyển trang
+                        e.stopPropagation();
+                        handleSave();
+                    }}
                 >
                     Remove Saved
                 </button>
             ) : (
                 <button
                     className={`${width} bg-[#DC143C] hover:bg-red-700 transition font-bold px-8 rounded-lg text-white flex items-center border-2 border-[#DC143C] justify-center mb-4 hover:cursor-pointer whitespace-nowrap`}
-                    onClick={handleSave}
+                    onClick={(e) => {
+                        e.preventDefault();   // ngăn chuyển trang
+                        e.stopPropagation();
+                        handleSave();
+                    }}
                 >
                     {isHeart ? <HeartIcon className="mx-1 w-5 h-5 text-white" /> : ""}
                     Save Product
