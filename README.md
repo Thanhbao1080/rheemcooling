@@ -1,4 +1,16 @@
 # eProject Report – Rheem Cooling
+---
+
+## 👨‍💻 Team Members – Group 2
+
+- **Nguyen Thanh Bao** — Student1634684
+- **Pham Gia Bao** — Student1628435
+- **Vo Cong Quoc Quang** — Student1634688
+
+🏫 **Batch no**.: T3.2502_E0  
+🏢 **Center Name**: ACE-HCMC-2-FPT
+
+---
 
 🌐 **Live Website**   
 👉 **[Rheem Cooling Website](https://rheemcooling.vercel.app/)**
@@ -71,15 +83,5 @@ npm install
 npm start
 ```
 
----
-
-## 👨‍💻 Team Members – Group 2
-
-- **Nguyen Thanh Bao** — Student1634684
-- **Pham Gia Bao** — Student1628435
-- **Vo Cong Quoc Quang** — Student1634688
-
-🏫 **Batch no**.: T3.2502_E0  
-🏢 **Center Name**: ACE-HCMC-2-FPT
 
 Thank you for spending your time to look at our work!
