@@ -42,7 +42,11 @@ function SavedProduct({ review = [] }) {
                     return (
                         <Link key={product.ac_id} to={`/product/${product.ac_id}`} className="col-span-8 md:col-span-4 lg:col-span-2  p-6 border border-gray-200 rounded-md hover:shadow-lg ">
                             <div className="flex justify-end">
-                                <button onClick={() => handleDelete(product.ac_id)}><X /></button>
+                                <button onClick={(e) => {
+                                    e.preventDefault();   // ngăn chuyển trang
+                                    e.stopPropagation(); // ngăn lan sự kiện ra Link
+                                    handleDelete(product.ac_id);
+                                }}><X /></button>
                             </div>
                             <div className="w-full h-50 my-5 md:mb-0">
                                 <img
