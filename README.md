@@ -16,10 +16,10 @@
 👉 **[Rheem Cooling Website](https://rheemcooling.vercel.app/)**
 
 📄 **Documentation**  
-👉 **[Rheem Cooling Project Report](https://github.com/Thanhbao1080/rheemcooling/blob/main/document/Group2_RheemCooling_document.pdf)**  
+👉 **[Rheem Cooling Project Report](https://github.com/Thanhbao1080/rheemcooling/blob/main/document)**  
 
 🎥 **Demonstration Video**  
-👉 **[Rheem Cooling Demo Video]**
+👉 **[Rheem Cooling Demo Video](https://www.youtube.com/watch?v=Ww1oubv7yXE&feature=youtu.be)**
 
 ---
 ## 📌 Project Overview  
