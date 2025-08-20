@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import CompanyInfo from "../../components/aboutus/CompanyInfo";
 import Mission from "../../components/aboutus/Mission";
 import Partners from "../../components/aboutus/Partners";
+import OurTeam from "../../components/aboutus/OurTeam";
 
 function AboutUs() {
     useEffect(() => {
@@ -23,6 +24,12 @@ function AboutUs() {
                 className="bg-[linear-gradient(to_right,rgba(0,0,0,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.04)_1px,transparent_1px)] bg-[size:40px_40px]"
             >
                 <CompanyInfo />
+            </div>
+            <div
+                data-aos="zoom-out"
+                className="bg-[linear-gradient(to_right,rgba(0,0,0,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.04)_1px,transparent_1px)] bg-[size:40px_40px]"
+            >
+                <OurTeam />
             </div>
 
             {/* Mission */}
