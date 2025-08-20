@@ -19,7 +19,7 @@
 👉 **[Rheem Cooling Project Report](https://github.com/Thanhbao1080/rheemcooling/blob/main/document)**  
 
 🎥 **Demonstration Video**  
-👉 **[Rheem Cooling Demo Video]**
+👉 **[Rheem Cooling Demo Video](https://www.youtube.com/watch?v=Ww1oubv7yXE&feature=youtu.be)**
 
 ---
 ## 📌 Project Overview  
